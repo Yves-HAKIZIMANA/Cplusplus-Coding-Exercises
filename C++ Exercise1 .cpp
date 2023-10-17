@@ -2,6 +2,16 @@
 
 using namespace  std;
 
+namespace arithmetic{
+    int add(int a, int b){return a + b ;}
+    int subtract(int a, int b) {return a - b ;}
+    int multiply(int a , int b) {return a * b ;}
+    int divide(int a, int b) { return a /b ;}
+    int modulus(int a , int b){ return a %b ;}
+}
+
+
+
 void calculator(){
      while(true){
 
@@ -21,23 +31,23 @@ void calculator(){
          int result;
          switch (choice) {
              case 1:
-                 result = a +b;
+                 result = arithmetic::add(a, b);
                  cout << "Result: " << result << endl;
                  break;
              case 2:
-                 result = a -b;
+                 result = arithmetic::subtract(a,b);
                  cout << "Result: " << result << endl;
                  break;
              case 3:
-                 result = a *b;
+                 result = arithmetic::multiply(a, b);
                  cout << "Result: " << result << endl;
                  break;
              case 4:
-                 result = a /b;
+                 result = arithmetic::divide(a, b);
                  cout << "Result: " << result << endl;
                  break;
              case 5:
-                 result = a %b;
+                 result = arithmetic::modulus(a, b);
                  cout << "Result: " << result << endl;
                  break;
              default:
