@@ -18,3 +18,6 @@ int main(){
     cout << "The area : " << aRea << " m ^ 2" << endl
         << "The Perimeter: " << pEremiter << " m";
 }
+
+
+
