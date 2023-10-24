@@ -18,3 +18,5 @@ int main(){
     cout << "The area of the circle is : " << area(radius) << endl
         << "The circumference of the circle is " << circumference(radius) << endl;
 }
+
+/// optimizing the algorithm
