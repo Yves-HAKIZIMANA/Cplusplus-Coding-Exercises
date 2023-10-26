@@ -18,7 +18,7 @@ void readPrint(){
 
 
 
-
-int main(){
-    readPrint();
-}
+//
+//int main(){
+//    readPrint();
+//}
